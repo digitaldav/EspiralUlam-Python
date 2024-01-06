@@ -1,3 +1,5 @@
 *.png
 *.txt
 ullam copia.py
+/.DS_Store
+/__pycache__
