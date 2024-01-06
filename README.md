@@ -1,6 +1,6 @@
 # EspiralUllam-Python
 
-Implementación de la Espiral de Ullam con matrices NxN en Python.
+Implementación de la Espiral de Ulam con matrices NxN en Python.
 Tiene funciones para pintar la matriz por terminal, pero sin formato, y también para generar un fichero a partir de un DataFrame de Pandas, asignando el color rojo a los números primos de la matriz.
 
 Como argumentos recibe el tamaño de la matriz y el nombre del fichero para guardar la imagen generada. 
