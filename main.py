@@ -1,4 +1,4 @@
-import ullam
+import ulam
 import sys
 
 if __name__ == "__main__":
@@ -27,11 +27,11 @@ if __name__ == "__main__":
         else:
             print("No se ha introducido nombre de fichero\nUsando nombre: imagen")
             fichero = 'imagen'
-            
-    a = ullam._InicializarMatriz(N)
+ 
+    a = ulam._InicializarMatriz(N)
     
-    ullam._MatrizEspiralUlam(a)
+    ulam._SelectorMatrizEspiralUlam(a)
     
-    ullam._PintarMatrizPandas(a)
+    ulam._PintarMatrizPandas(a)
     
-    ullam._GenerarImagen(a,fichero)
+    ulam._GenerarImagen(a,fichero)
